@@ -1,0 +1,56 @@
+.loginBox {
+    height: 12rem;
+    width: 20rem;
+    border: 1px solid black;
+    display: flex;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+
+.heading {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.fields {
+    padding: 5px;
+}
+
+.submit {
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(133, 190, 241);
+}
+
+.error {
+    margin: 0;
+    font-size: 13px;
+    color: red;
+}
+
+input {
+    max-width: 10rem;
+    outline: none;
+}
+
+input:focus,
+input:hover {
+    border: 1px solid rgb(86, 231, 103);
+    background-color: rgb(190, 245, 196);
+}
+
+.invalid input:focus,
+.invalid input:hover {
+    border: 1px solid red;
+    background-color: rgb(245, 173, 173);
+}
