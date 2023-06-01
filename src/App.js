@@ -1,6 +1,6 @@
 import Login from './components/Login'
 import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import Navigation from './components/Navigation';
 
 import { useSelector } from 'react-redux';

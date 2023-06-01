@@ -10,6 +10,7 @@ function Navigation() {
 
     return (
         <div className={classes.head}>
+            {user}
             <ul className={classes.list}>
                 <li>
                     {auth ? 'Logout' : 'Login'}
